@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-text {
+    /* Set the background clip to text */
+    /* The text will be transparent and show the gradient behind it */
+    background-clip: text;
+
+    /* Create a gradient for text color */
+    /* Adjust the gradient as needed */
+    /* In this example, it goes from blue to pink */
+    color: transparent;
+    background-image: linear-gradient(to right, #08203E, #557C93);
+
+    /* Ensure the text is visible even if the gradient isn't supported */
+    /* Fallback color if gradient is not supported */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-background {
+    /* Replace 'body' with your desired selector */
+    background: linear-gradient(to right, #F6CFBE, #B9DCF2);
+}
+.gradient-background-back {
+    /* Replace 'body' with your desired selector */
+    background: linear-gradient(to right, #B9DCF2, #F6CFBE);
+}
