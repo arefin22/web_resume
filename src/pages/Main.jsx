@@ -4,11 +4,11 @@ import Footer from "../components/shared/Footer";
 
 const Main = () => {
     return (
-        <div className="flex flex-row items-center">
-            <div>
+        <div className="grid grid-flow-col grid-cols-5">
+            <div className="col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1">
                 <Navbar />
             </div>
-            <div>
+            <div className="col-span-2 md:col-span-2 lg:col-span-3 ">
                 <Outlet />
                 <Footer />
             </div>
