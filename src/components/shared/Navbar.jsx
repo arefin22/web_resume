@@ -42,12 +42,12 @@ const Navbar = () => {
                 </div>
 
                 <div className="gradient-background rounded-2xl m-5 p-4">
-                    <ul className="menu text-lg bg-base-200 text-cyan-800 font-medium">
-                        <li className="hover:bg-orange-200 p-2 rounded-lg"><a href="#home">Home</a></li>
-                        <li className="hover:bg-orange-200 p-2 rounded-lg"><a href="#about">About Me</a></li>
-                        <li className="hover:bg-orange-200 p-2 rounded-lg"><a href="#skills">Skills</a></li>
-                        <li className="hover:bg-orange-200 p-2 rounded-lg"><a href="#experiences">Experiences</a></li>
-                        <li className="hover:bg-orange-200 p-2 rounded-lg"><a href="#projects">Projects</a></li>
+                    <ul className="text-lg menu text-cyan-800 font-medium">
+                        <li className="hover:bg-orange-200 rounded-lg"><a href="#home">Home</a></li>
+                        <li className="hover:bg-orange-200 rounded-lg"><a href="#about">About Me</a></li>
+                        <li className="hover:bg-orange-200 rounded-lg"><a href="#skills">Skills</a></li>
+                        <li className="hover:bg-orange-200 rounded-lg"><a href="#experiences">Experiences</a></li>
+                        <li className="hover:bg-orange-200 rounded-lg"><a href="#projects">Projects</a></li>
                     </ul>
                 </div>
             </div>

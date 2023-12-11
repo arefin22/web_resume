@@ -10,7 +10,7 @@ const Banner = () => {
                     <div className="bg-white w-56 h-56 rounded-tr-[30%] rounded-tl-[40%] rounded-bl-[30%] rounded-br-[70%] mx-auto -mt-48 "></div>
                 </div>
                 <div className="text-center mx-auto">
-                    <h2 className="text-4xl">Shamsul Arefin</h2>
+                    <h2 className="text-4xl font-bold">Shamsul Arefin</h2>
                     <h3><a href="mailto:shamsularefin500@gmail.com">shamsularefin500@gmail.com</a></h3>
                     <div className="flex justify-center items-center gap-3 mt-4">
                         <div className="flex justify-start items-center text-cyan-800 gap-3">
