@@ -8,6 +8,7 @@ const Navbar = () => {
             <div className="gradient-background rounded-2xl m-5 p-4">
                 <img className="w-72 rounded-2xl mx-auto" src="/src/assets/f-66927.jpg" alt="Shamsul Arefin's Profile Photo" />
                 <h1 className="gradient-text text-center text-4xl font-extrabold mt-4">Shamsul Arefin</h1>
+                <p className="text-center text-sky-900">(Web Developer)</p>
                 <hr className="m-2" />
                 <div className="flex justify-start items-center text-cyan-800 gap-3">
                     <FaPhoneSquareAlt />
