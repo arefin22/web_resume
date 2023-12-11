@@ -9,7 +9,7 @@ const Title = ({ title }) => {
                     <h3 className="text-4xl text-sky-900 font-bold ml-6">{title}</h3>
                 </div>
                 {/* <hr className="w-56 mt-8 ml-4 mb-4 bg-slate-800" /> */}
-                <div className="border-b-2 border-sky-900 mt-8 mb-4 w-96">
+                <div className="border-b-2 opacity-20 border-sky-900 mt-8 mb-4 w-96">
 
                 </div>
             </div>
