@@ -3,7 +3,7 @@ import Title from "../components/shared/Title";
 const Skills = () => {
     return (
         <div id="skills" className="gradient-background rounded-2xl m-5 p-4 py-24">
-            <Title title='Skills'></Title>
+            <Title title='Skills & Experience'></Title>
             <div className="border-l-2 border-sky-900 text-black ml-8  p-4">
                 <h3 className="font-medium text-xl">Web Design</h3>
                 <div className="">
