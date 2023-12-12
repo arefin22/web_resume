@@ -4,7 +4,7 @@ import Footer from "../components/shared/Footer";
 
 const Main = () => {
     return (
-        <div className="grid grid-flow-col grid-cols-5">
+        <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-5">
             <div className="col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1">
                 <Navbar />
             </div>

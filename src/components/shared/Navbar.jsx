@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className="sticky top-5">
             <div className="gradient-background rounded-2xl m-5 p-4">
-                <img className="w-72 rounded-2xl mx-auto" src="/src/assets/f-66927.jpg" alt="Shamsul Arefin's Profile Photo" />
+                <img className="w-72 rounded-2xl mx-auto" src="https://i.ibb.co/qdhGT9x/f-66927.jpg" alt="Shamsul Arefin's Profile Photo" />
                 <h1 className="gradient-text text-center text-4xl font-extrabold mt-4">Shamsul Arefin</h1>
                 <p className="text-center text-sky-900">(Web Developer)</p>
                 <hr className="m-2" />
