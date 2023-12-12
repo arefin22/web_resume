@@ -9,6 +9,7 @@ const About = () => {
             </p>
 
             <div>
+                <h3 className="text-cyan-900 font-medium text-2xl underline">Academic Update</h3>
                 <div className="border-l-2 border-sky-900 ml-8 mt-4 text-black p-4">
                     <h3 className="font-medium text-xl mb-2">Bachelor Of Science</h3>
                     <div className="">
