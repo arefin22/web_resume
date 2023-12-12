@@ -18,6 +18,8 @@ const Contact = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 mx-auto lg:px-8">
                 <div className="lg:col-span-1">
                     <h4 className="text-2xl my-3 lg:my-48 text-black">Feel free to <br /> reach me any time...</h4>
+                    <p><span>Email: </span>shamsularefin500@gmail.com</p>
+                    <p><span>Phone: </span>+880 1786 - 832 822</p>
                     {/* <p>Feel free to reach me any time.</p> */}
                 </div>
                 <form onSubmit={onSubmit} className="grid grid-cols-1 lg:col-span-2 w-full gap-3">
