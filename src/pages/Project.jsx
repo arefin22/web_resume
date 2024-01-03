@@ -2,7 +2,7 @@ import Title from "../components/shared/Title";
 
 const Project = () => {
     return (
-        <div id="projects" className="gradient-background rounded-2xl m-5 p-4 text-black py-52">
+        <div id="projects" className="backdrop-blur-lg bg-white/10 rounded-2xl m-5 p-4 text-black py-52">
             <Title title="Projects"></Title>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
                 <a href="https://jobshq-7364c.web.app/">

@@ -12,7 +12,7 @@ const Contact = () => {
         console.log(conFom)
     }
     return (
-        <div id="contact" className="gradient-background rounded-2xl m-5 p-4 py-24">
+        <div id="contact" className="backdrop-blur-lg bg-white/10 rounded-2xl m-5 p-4 py-24">
             <Title title="Contact Me"></Title>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 mx-auto lg:px-8">

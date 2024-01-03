@@ -4,7 +4,7 @@ import shamsulArefinCV from "../assets/Shamsul Arefin CV.pdf";
 
 const Banner = () => {
     return (
-        <div className="gradient-background rounded-2xl m-5 p-4 lg:py-52" id="home">
+        <div className="backdrop-blur-lg bg-white/10 rounded-2xl m-5 p-4 lg:py-52" id="home">
             <div>
                 <div className="m-3">
                     <img src="https://i.ibb.co/qdhGT9x/f-66927.jpg" className="rounded-full mx-auto w-56 h-56 rounded-tr-[30%] rounded-tl-[40%] rounded-bl-[30%] mb-4 rounded-br-[70%]" alt="" />
@@ -28,7 +28,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <a href={shamsulArefinCV} target='_blank' rel="noreferrer">
-                    <div className="btn flex justify-center items-center w-full lg:w-1/3 btn-outline mx-auto mt-4 bg-cyan-900 text-white">
+                    <div className="h-12 rounded-lg flex justify-center items-center w-full lg:w-1/3 mx-auto mt-4 bg-cyan-900 text-white">
                         <FaCloudDownloadAlt />
                         <button>Download CV Now</button>
                     </div>

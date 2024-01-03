@@ -5,9 +5,9 @@ import { MdEmail } from "react-icons/md";
 const Navbar = () => {
     return (
         <div className="sticky top-5">
-            <div className="gradient-background rounded-2xl m-5 p-4">
+            <div className="backdrop-blur-lg drop-shadow-lg bg-white/30 rounded-2xl m-5 p-4">
                 <img className="w-72 rounded-2xl mx-auto" src="https://i.ibb.co/qdhGT9x/f-66927.jpg" alt="Shamsul Arefin's Profile Photo" />
-                <h1 className="gradient-text text-center text-4xl font-extrabold mt-4">Shamsul Arefin</h1>
+                <h1 className="text-sky-900 text-center text-4xl font-extrabold mt-4">Shamsul Arefin</h1>
                 <p className="text-center text-sky-900">(Web Developer)</p>
                 <hr className="m-2" />
                 <div className="flex justify-start items-center text-cyan-800 gap-3">
@@ -28,7 +28,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className="gradient-background rounded-2xl m-5 p-4">
+            <div className="backdrop-blur-lg bg-white/30 rounded-2xl m-5 p-4">
                 <ul className="text-lg menu text-cyan-800 font-medium">
                     <li className="hover:bg-orange-200 rounded-lg"><a href="#home">Home</a></li>
                     <li className="hover:bg-orange-200 rounded-lg"><a href="#about">About Me</a></li>
